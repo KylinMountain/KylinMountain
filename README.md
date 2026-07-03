@@ -9,8 +9,8 @@
 
 <!-- ░░ Custom terminal hero (repo-hosted SVG, theme-adaptive, animated) ░░ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=2" />
-  <img width="100%" src="assets/hero-light.svg?v=2" alt="Kylin — PageIndex · OpenKB Maintainer, GraphRAG & SGLang Contributor" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=3" />
+  <img width="100%" src="assets/hero-light.svg?v=3" alt="Kylin — PageIndex · OpenKB Maintainer, GraphRAG & SGLang Contributor" />
 </picture>
 
 <p>
