@@ -30,16 +30,6 @@ Maintainer of PageIndex & OpenKB · Contributor to Microsoft GraphRAG & SGLang.
 Focus: vectorless RAG · multi-agent systems · MCP tooling · LLM ops.
 ```
 
-<!-- ░░ Open-source roles — the headline ░░ -->
-### `~/open-source`
-
-| Role | Project | | What |
-|---|---|---|---|
-| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / PageIndex**](https://github.com/VectifyAI/PageIndex) | **★ 33.7k** | Vectorless, reasoning-based retrieval for long documents — no vector DB, no chunking |
-| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / OpenKB**](https://github.com/VectifyAI/OpenKB) | **★ 2.8k** | Compiles raw documents into an interlinked wiki knowledge base with LLMs |
-| ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**microsoft / graphrag**](https://github.com/microsoft/graphrag) | **★ 34.2k** | Merged fixes: streaming query · open-source-LLM prompt-tune ([#505](https://github.com/microsoft/graphrag/pull/505) · [#520](https://github.com/microsoft/graphrag/pull/520) · [#1368](https://github.com/microsoft/graphrag/pull/1368)) |
-| ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**sgl-project / sglang**](https://github.com/sgl-project/sglang) | **★ 29.9k** | Docker image fix shipped upstream ([#1520](https://github.com/sgl-project/sglang/pull/1520)) |
-
 <!-- ░░ Stack ░░ -->
 ### `~/stack`
 
@@ -55,6 +45,16 @@ Focus: vectorless RAG · multi-agent systems · MCP tooling · LLM ops.
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=F4C455" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 </p>
+
+<!-- ░░ Open-source roles — the headline ░░ -->
+### `~/open-source`
+
+| Role | Project | | What |
+|---|---|---|---|
+| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / PageIndex**](https://github.com/VectifyAI/PageIndex) | <!--star:VectifyAI/PageIndex-->**★ 33.7k**<!--/star--> | Vectorless, reasoning-based retrieval for long documents — no vector DB, no chunking |
+| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / OpenKB**](https://github.com/VectifyAI/OpenKB) | <!--star:VectifyAI/OpenKB-->**★ 2.8k**<!--/star--> | Compiles raw documents into an interlinked wiki knowledge base with LLMs |
+| ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**microsoft / graphrag**](https://github.com/microsoft/graphrag) | <!--star:microsoft/graphrag-->**★ 34.2k**<!--/star--> | Merged fixes: streaming query · open-source-LLM prompt-tune ([#505](https://github.com/microsoft/graphrag/pull/505) · [#520](https://github.com/microsoft/graphrag/pull/520) · [#1368](https://github.com/microsoft/graphrag/pull/1368)) |
+| ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**sgl-project / sglang**](https://github.com/sgl-project/sglang) | <!--star:sgl-project/sglang-->**★ 29.9k**<!--/star--> | Docker image fix shipped upstream ([#1520](https://github.com/sgl-project/sglang/pull/1520)) |
 
 <!-- ░░ Telemetry ░░ -->
 ### `~/telemetry`
