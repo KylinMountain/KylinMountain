@@ -26,6 +26,9 @@ jobs:
 
       - name: Publish to the output branch
         run: |
+          # Platane/snk runs in a Docker container as root, so dist/ is
+          # root-owned — reclaim it before git can write dist/.git.
+          sudo chown -R "$(id -u):$(id -g)" dist
           cd dist
           git init -q -b output
           git config user.name "github-actions[bot]"
