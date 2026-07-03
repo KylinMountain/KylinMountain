@@ -7,16 +7,11 @@
 
 <div align="center">
 
-<!-- ░░ Header banner ░░ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38E0C8,100:F4C455&height=200&section=header&text=Kylin&fontColor=0D1117&fontSize=64&fontAlignY=38&desc=Make%20AI%20Great%20Again&descSize=18&descAlignY=60&animation=fadeIn" alt="Kylin" />
-
-<!-- ░░ Typing roles (theme-adaptive) ░░ -->
-<a href="https://github.com/KylinMountain">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=38E0C8&center=true&vCenter=true&width=640&height=44&lines=PageIndex+%C2%B7+OpenKB+Maintainer;Microsoft+GraphRAG+Contributor;SGLang+Contributor;RAG+Architect+%C2%B7+vectorless;Multi-Agent+Builder" />
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=0F766E&center=true&vCenter=true&width=640&height=44&lines=PageIndex+%C2%B7+OpenKB+Maintainer;Microsoft+GraphRAG+Contributor;SGLang+Contributor;RAG+Architect+%C2%B7+vectorless;Multi-Agent+Builder" alt="roles" />
-  </picture>
-</a>
+<!-- ░░ Custom terminal hero (repo-hosted SVG, theme-adaptive, animated) ░░ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+  <img width="100%" src="assets/hero-light.svg" alt="Kylin — PageIndex · OpenKB Maintainer, GraphRAG & SGLang Contributor" />
+</picture>
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=KylinMountain&color=38E0C8&style=flat-square&label=PROFILE+VIEWS" alt="views" />

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace">
+  <defs>
+    <linearGradient id="jadegold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38e0c8"/><stop offset=".45" stop-color="#bff6ec"/><stop offset="1" stop-color="#f4c455"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38e0c8"/><stop offset="1" stop-color="#f4c455"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#38e0c8" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+  <style>
+    .roles text{opacity:0; animation:cyc 12s linear infinite}
+    .r2{animation-delay:3s!important} .r3{animation-delay:6s!important} .r4{animation-delay:9s!important}
+    @keyframes cyc{0%{opacity:0}3%,22%{opacity:1}26%,100%{opacity:0}}
+    .caret{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.35}}
+  </style>
+
+  <!-- window -->
+  <rect x="8" y="8" width="984" height="314" rx="14" fill="#0d1117"/>
+  <rect x="8" y="8" width="984" height="314" rx="14" fill="url(#grid)"/>
+  <rect x="8.5" y="8.5" width="983" height="313" rx="13.5" fill="none" stroke="#1e2735"/>
+  <rect x="9" y="9" width="982" height="2" fill="url(#edge)" opacity=".55"/>
+
+  <!-- titlebar -->
+  <circle cx="34" cy="34" r="6" fill="#ff5f57"/><circle cx="54" cy="34" r="6" fill="#febc2e"/><circle cx="74" cy="34" r="6" fill="#28c840"/>
+  <text x="96" y="39" font-size="13" fill="#7488a0">github.com/KylinMountain — profile.readme</text>
+  <text x="962" y="39" font-size="12" fill="#4a5a6f" text-anchor="end">◍ Nanjing · since 2013</text>
+  <line x1="9" y1="52" x2="991" y2="52" stroke="#1e2735"/>
+
+  <!-- ASCII KYLIN -->
+  <g filter="url(#glow)" fill="url(#jadegold)" font-size="17" font-weight="700" xml:space="preserve">
+    <text x="52" y="103">██╗  ██╗██╗   ██╗██╗     ██╗███╗   ██╗</text>
+    <text x="52" y="123">██║ ██╔╝╚██╗ ██╔╝██║     ██║████╗  ██║</text>
+    <text x="52" y="143">█████╔╝  ╚████╔╝ ██║     ██║██╔██╗ ██║</text>
+    <text x="52" y="163">██╔═██╗   ╚██╔╝  ██║     ██║██║╚██╗██║</text>
+    <text x="52" y="183">██║  ██╗   ██║   ███████╗██║██║ ╚████║</text>
+    <text x="52" y="203">╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝╚═╝  ╚═══╝</text>
+  </g>
+  <text x="52" y="232" font-size="13" letter-spacing="8" fill="#38e0c8" opacity=".9">M O U N T A I N</text>
+
+  <!-- terminal prompt + rotating roles -->
+  <rect x="52" y="252" width="640" height="44" rx="8" fill="#0c111a" stroke="#1e2735"/>
+  <text x="70" y="279" font-size="15"><tspan fill="#f4c455">kylin</tspan><tspan fill="#38e0c8">@github:~$</tspan></text>
+  <g class="roles" font-size="15" fill="#d6e0ee">
+    <text class="r1" x="196" y="279">PageIndex · OpenKB Maintainer</text>
+    <text class="r2" x="196" y="279">Microsoft GraphRAG Contributor</text>
+    <text class="r3" x="196" y="279">SGLang Contributor</text>
+    <text class="r4" x="196" y="279">RAG Architect · Multi-Agent Builder</text>
+  </g>
+  <rect class="caret" x="530" y="264" width="9" height="20" fill="#38e0c8"/>
+
+  <!-- right column: status chips -->
+  <g font-size="13">
+    <circle class="pulse" cx="742" cy="273" r="5" fill="#38e0c8"/>
+    <text x="756" y="278" fill="#7488a0">status: <tspan fill="#38e0c8">shipping</tspan></text>
+    <text x="742" y="120" fill="#7488a0" font-size="14">maintainer of</text>
+    <text x="742" y="146" fill="#f4c455" font-size="18" font-weight="700">PageIndex <tspan fill="#4a5a6f" font-weight="400">★33.7k</tspan></text>
+    <text x="742" y="172" font-size="18" fill="#f4c455" font-weight="700">OpenKB <tspan fill="#4a5a6f" font-weight="400">★2.8k</tspan></text>
+    <text x="742" y="202" fill="#7488a0" font-size="14">upstream prs</text>
+    <text x="742" y="228" font-size="16" fill="#38e0c8" font-weight="700">GraphRAG · SGLang</text>
+  </g>
+</svg>

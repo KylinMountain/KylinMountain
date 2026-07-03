@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace">
+  <defs>
+    <linearGradient id="jadegold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/><stop offset=".5" stop-color="#0d9488"/><stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#0f766e" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <style>
+    .roles text{opacity:0; animation:cyc 12s linear infinite}
+    .r2{animation-delay:3s!important} .r3{animation-delay:6s!important} .r4{animation-delay:9s!important}
+    @keyframes cyc{0%{opacity:0}3%,22%{opacity:1}26%,100%{opacity:0}}
+    .caret{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.35}}
+  </style>
+
+  <!-- window -->
+  <rect x="8" y="8" width="984" height="314" rx="14" fill="#ffffff"/>
+  <rect x="8" y="8" width="984" height="314" rx="14" fill="url(#grid)"/>
+  <rect x="8.5" y="8.5" width="983" height="313" rx="13.5" fill="none" stroke="#d0d7de"/>
+  <rect x="9" y="9" width="982" height="2" fill="url(#edge)" opacity=".7"/>
+
+  <!-- titlebar -->
+  <circle cx="34" cy="34" r="6" fill="#ff5f57"/><circle cx="54" cy="34" r="6" fill="#febc2e"/><circle cx="74" cy="34" r="6" fill="#28c840"/>
+  <text x="96" y="39" font-size="13" fill="#57606a">github.com/KylinMountain — profile.readme</text>
+  <text x="962" y="39" font-size="12" fill="#8c959f" text-anchor="end">◍ Nanjing · since 2013</text>
+  <line x1="9" y1="52" x2="991" y2="52" stroke="#d0d7de"/>
+
+  <!-- ASCII KYLIN -->
+  <g fill="url(#jadegold)" font-size="17" font-weight="700" xml:space="preserve">
+    <text x="52" y="103">██╗  ██╗██╗   ██╗██╗     ██╗███╗   ██╗</text>
+    <text x="52" y="123">██║ ██╔╝╚██╗ ██╔╝██║     ██║████╗  ██║</text>
+    <text x="52" y="143">█████╔╝  ╚████╔╝ ██║     ██║██╔██╗ ██║</text>
+    <text x="52" y="163">██╔═██╗   ╚██╔╝  ██║     ██║██║╚██╗██║</text>
+    <text x="52" y="183">██║  ██╗   ██║   ███████╗██║██║ ╚████║</text>
+    <text x="52" y="203">╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝╚═╝  ╚═══╝</text>
+  </g>
+  <text x="52" y="232" font-size="13" letter-spacing="8" fill="#0f766e">M O U N T A I N</text>
+
+  <!-- terminal prompt + rotating roles -->
+  <rect x="52" y="252" width="640" height="44" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="70" y="279" font-size="15"><tspan fill="#b45309">kylin</tspan><tspan fill="#0f766e">@github:~$</tspan></text>
+  <g class="roles" font-size="15" fill="#24292f">
+    <text class="r1" x="196" y="279">PageIndex · OpenKB Maintainer</text>
+    <text class="r2" x="196" y="279">Microsoft GraphRAG Contributor</text>
+    <text class="r3" x="196" y="279">SGLang Contributor</text>
+    <text class="r4" x="196" y="279">RAG Architect · Multi-Agent Builder</text>
+  </g>
+  <rect class="caret" x="530" y="264" width="9" height="20" fill="#0f766e"/>
+
+  <!-- right column: status chips -->
+  <g font-size="13">
+    <circle class="pulse" cx="742" cy="273" r="5" fill="#0f766e"/>
+    <text x="756" y="278" fill="#57606a">status: <tspan fill="#0f766e">shipping</tspan></text>
+    <text x="742" y="120" fill="#57606a" font-size="14">maintainer of</text>
+    <text x="742" y="146" fill="#b45309" font-size="18" font-weight="700">PageIndex <tspan fill="#8c959f" font-weight="400">★33.7k</tspan></text>
+    <text x="742" y="172" font-size="18" fill="#b45309" font-weight="700">OpenKB <tspan fill="#8c959f" font-weight="400">★2.8k</tspan></text>
+    <text x="742" y="202" fill="#57606a" font-size="14">upstream prs</text>
+    <text x="742" y="228" font-size="16" fill="#0f766e" font-weight="700">GraphRAG · SGLang</text>
+  </g>
+</svg>
