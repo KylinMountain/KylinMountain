@@ -85,10 +85,11 @@ Focus: vectorless RAG · multi-agent systems · MCP tooling · LLM ops.
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KylinMountain&bg_color=ffffff&color=0F766E&line=B45309&point=24292f&area=true&area_color=0F766E&hide_border=true" alt="activity graph" />
 </picture>
 
-<!-- ░░ Optional: contribution snake (needs a GitHub Action — ask me to wire it) ░░ -->
-<!--
-<img width="100%" src="https://raw.githubusercontent.com/KylinMountain/KylinMountain/output/snake.svg" alt="snake" />
--->
+<!-- ░░ Contribution snake (generated daily by .github/workflows/snake.yml → output branch) ░░ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KylinMountain/KylinMountain/output/snake-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/KylinMountain/KylinMountain/output/snake-light.svg" alt="contribution snake" />
+</picture>
 
 <div align="center">
 
