@@ -1,7 +1,7 @@
 <!--
   GitHub profile README for @KylinMountain  ( repo: KylinMountain/KylinMountain )
   Theme: "Cyber Terminal"  — jade #38E0C8 + gold #F4C455 on GitHub dark #0D1117
-  All widgets are external services that render on github.com.
+  All widgets are external services rendered by github.com.
   Tweak colors by find/replace: 38E0C8 (jade), F4C455 (gold), 0D1117 (bg).
 -->
 
