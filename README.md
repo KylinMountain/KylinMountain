@@ -9,8 +9,8 @@
 
 <!-- ░░ Custom terminal hero (repo-hosted SVG, theme-adaptive, animated) ░░ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
-  <img width="100%" src="assets/hero-light.svg" alt="Kylin — PageIndex · OpenKB Maintainer, GraphRAG & SGLang Contributor" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=2" />
+  <img width="100%" src="assets/hero-light.svg?v=2" alt="Kylin — PageIndex · OpenKB Maintainer, GraphRAG & SGLang Contributor" />
 </picture>
 
 <p>
@@ -35,26 +35,20 @@ Focus: vectorless RAG · multi-agent systems · MCP tooling · LLM ops.
 
 | Role | Project | | What |
 |---|---|---|---|
-| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / PageIndex**](https://github.com/VectifyAI/PageIndex) | ![](https://flat.badgen.net/github/stars/VectifyAI/PageIndex?label=%E2%98%85&color=F4C455&labelColor=0D1117) | Vectorless, reasoning-based retrieval for long documents — no vector DB, no chunking |
-| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / OpenKB**](https://github.com/VectifyAI/OpenKB) | ![](https://flat.badgen.net/github/stars/VectifyAI/OpenKB?label=%E2%98%85&color=F4C455&labelColor=0D1117) | Compiles raw documents into an interlinked wiki knowledge base with LLMs |
-| ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**microsoft / graphrag**](https://github.com/microsoft/graphrag) | ![](https://flat.badgen.net/github/stars/microsoft/graphrag?label=%E2%98%85&color=38E0C8&labelColor=0D1117) | Merged fixes: streaming query · open-source-LLM prompt-tune ([#505](https://github.com/microsoft/graphrag/pull/505) · [#520](https://github.com/microsoft/graphrag/pull/520) · [#1368](https://github.com/microsoft/graphrag/pull/1368)) |
-| ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**sgl-project / sglang**](https://github.com/sgl-project/sglang) | ![](https://flat.badgen.net/github/stars/sgl-project/sglang?label=%E2%98%85&color=38E0C8&labelColor=0D1117) | Docker image fix shipped upstream ([#1520](https://github.com/sgl-project/sglang/pull/1520)) |
+| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / PageIndex**](https://github.com/VectifyAI/PageIndex) | **★ 33.7k** | Vectorless, reasoning-based retrieval for long documents — no vector DB, no chunking |
+| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / OpenKB**](https://github.com/VectifyAI/OpenKB) | **★ 2.8k** | Compiles raw documents into an interlinked wiki knowledge base with LLMs |
+| ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**microsoft / graphrag**](https://github.com/microsoft/graphrag) | **★ 34.2k** | Merged fixes: streaming query · open-source-LLM prompt-tune ([#505](https://github.com/microsoft/graphrag/pull/505) · [#520](https://github.com/microsoft/graphrag/pull/520) · [#1368](https://github.com/microsoft/graphrag/pull/1368)) |
+| ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**sgl-project / sglang**](https://github.com/sgl-project/sglang) | **★ 29.9k** | Docker image fix shipped upstream ([#1520](https://github.com/sgl-project/sglang/pull/1520)) |
 
 <!-- ░░ Own projects ░░ -->
 ### `~/projects`
 
 <p>
   <a href="https://github.com/KylinMountain/TradingAgents-AShare">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=TradingAgents-AShare&bg_color=0D1117&title_color=38E0C8&icon_color=F4C455&text_color=C9D1D9&border_color=1E2735" />
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=TradingAgents-AShare&bg_color=ffffff&title_color=0F766E&icon_color=B45309&text_color=24292f&border_color=d0d7de" />
-    </picture>
+    <img width="49%" src="https://opengraph.githubassets.com/hero/KylinMountain/TradingAgents-AShare" alt="TradingAgents-AShare" />
   </a>
   <a href="https://github.com/KylinMountain/graphrag-server">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=graphrag-server&bg_color=0D1117&title_color=38E0C8&icon_color=F4C455&text_color=C9D1D9&border_color=1E2735" />
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=graphrag-server&bg_color=ffffff&title_color=0F766E&icon_color=B45309&text_color=24292f&border_color=d0d7de" />
-    </picture>
+    <img width="49%" src="https://opengraph.githubassets.com/hero/KylinMountain/graphrag-server" alt="graphrag-server" />
   </a>
 </p>
 

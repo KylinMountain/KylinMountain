@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">
   <defs>
     <linearGradient id="jadegold" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#38e0c8"/><stop offset=".45" stop-color="#bff6ec"/><stop offset="1" stop-color="#f4c455"/>
@@ -23,42 +23,97 @@
     .pulse{animation:pulse 2.4s ease-in-out infinite}
     @keyframes pulse{50%{opacity:.35}}
   </style>
-
-  <!-- window -->
   <rect x="8" y="8" width="984" height="314" rx="14" fill="#0d1117"/>
   <rect x="8" y="8" width="984" height="314" rx="14" fill="url(#grid)"/>
   <rect x="8.5" y="8.5" width="983" height="313" rx="13.5" fill="none" stroke="#1e2735"/>
-  <rect x="9" y="9" width="982" height="2" fill="url(#edge)" opacity=".55"/>
-
-  <!-- titlebar -->
+  <rect x="9" y="9" width="982" height="2" fill="url(#edge)" opacity=".6"/>
   <circle cx="34" cy="34" r="6" fill="#ff5f57"/><circle cx="54" cy="34" r="6" fill="#febc2e"/><circle cx="74" cy="34" r="6" fill="#28c840"/>
-  <text x="96" y="39" font-size="13" fill="#7488a0">github.com/KylinMountain — profile.readme</text>
+  <text x="96" y="39" font-size="13" fill="#7488a0" textLength="330" lengthAdjust="spacingAndGlyphs">github.com/KylinMountain — profile.readme</text>
   <text x="962" y="39" font-size="12" fill="#4a5a6f" text-anchor="end">◍ Nanjing · since 2013</text>
   <line x1="9" y1="52" x2="991" y2="52" stroke="#1e2735"/>
 
-  <!-- ASCII KYLIN -->
-  <g filter="url(#glow)" fill="url(#jadegold)" font-size="17" font-weight="700" xml:space="preserve">
-    <text x="52" y="103">██╗  ██╗██╗   ██╗██╗     ██╗███╗   ██╗</text>
-    <text x="52" y="123">██║ ██╔╝╚██╗ ██╔╝██║     ██║████╗  ██║</text>
-    <text x="52" y="143">█████╔╝  ╚████╔╝ ██║     ██║██╔██╗ ██║</text>
-    <text x="52" y="163">██╔═██╗   ╚██╔╝  ██║     ██║██║╚██╗██║</text>
-    <text x="52" y="183">██║  ██╗   ██║   ███████╗██║██║ ╚████║</text>
-    <text x="52" y="203">╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝╚═╝  ╚═══╝</text>
+  <!-- pixel-rect KYLIN wordmark: pure geometry, no font dependence -->
+  <g fill="url(#jadegold)" filter="url(#glow)">
+    <rect x="52" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="116" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="52" y="100" width="13" height="13" rx="2.5"/>
+    <rect x="100" y="100" width="13" height="13" rx="2.5"/>
+    <rect x="52" y="116" width="13" height="13" rx="2.5"/>
+    <rect x="84" y="116" width="13" height="13" rx="2.5"/>
+    <rect x="52" y="132" width="13" height="13" rx="2.5"/>
+    <rect x="68" y="132" width="13" height="13" rx="2.5"/>
+    <rect x="52" y="148" width="13" height="13" rx="2.5"/>
+    <rect x="84" y="148" width="13" height="13" rx="2.5"/>
+    <rect x="52" y="164" width="13" height="13" rx="2.5"/>
+    <rect x="100" y="164" width="13" height="13" rx="2.5"/>
+    <rect x="52" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="116" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="164" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="228" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="164" y="100" width="13" height="13" rx="2.5"/>
+    <rect x="228" y="100" width="13" height="13" rx="2.5"/>
+    <rect x="180" y="116" width="13" height="13" rx="2.5"/>
+    <rect x="212" y="116" width="13" height="13" rx="2.5"/>
+    <rect x="196" y="132" width="13" height="13" rx="2.5"/>
+    <rect x="196" y="148" width="13" height="13" rx="2.5"/>
+    <rect x="196" y="164" width="13" height="13" rx="2.5"/>
+    <rect x="196" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="276" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="276" y="100" width="13" height="13" rx="2.5"/>
+    <rect x="276" y="116" width="13" height="13" rx="2.5"/>
+    <rect x="276" y="132" width="13" height="13" rx="2.5"/>
+    <rect x="276" y="148" width="13" height="13" rx="2.5"/>
+    <rect x="276" y="164" width="13" height="13" rx="2.5"/>
+    <rect x="276" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="292" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="308" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="324" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="340" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="388" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="404" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="420" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="436" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="452" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="420" y="100" width="13" height="13" rx="2.5"/>
+    <rect x="420" y="116" width="13" height="13" rx="2.5"/>
+    <rect x="420" y="132" width="13" height="13" rx="2.5"/>
+    <rect x="420" y="148" width="13" height="13" rx="2.5"/>
+    <rect x="420" y="164" width="13" height="13" rx="2.5"/>
+    <rect x="388" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="404" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="420" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="436" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="452" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="500" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="564" y="84" width="13" height="13" rx="2.5"/>
+    <rect x="500" y="100" width="13" height="13" rx="2.5"/>
+    <rect x="516" y="100" width="13" height="13" rx="2.5"/>
+    <rect x="564" y="100" width="13" height="13" rx="2.5"/>
+    <rect x="500" y="116" width="13" height="13" rx="2.5"/>
+    <rect x="532" y="116" width="13" height="13" rx="2.5"/>
+    <rect x="564" y="116" width="13" height="13" rx="2.5"/>
+    <rect x="500" y="132" width="13" height="13" rx="2.5"/>
+    <rect x="548" y="132" width="13" height="13" rx="2.5"/>
+    <rect x="564" y="132" width="13" height="13" rx="2.5"/>
+    <rect x="500" y="148" width="13" height="13" rx="2.5"/>
+    <rect x="564" y="148" width="13" height="13" rx="2.5"/>
+    <rect x="500" y="164" width="13" height="13" rx="2.5"/>
+    <rect x="564" y="164" width="13" height="13" rx="2.5"/>
+    <rect x="500" y="180" width="13" height="13" rx="2.5"/>
+    <rect x="564" y="180" width="13" height="13" rx="2.5"/>
   </g>
-  <text x="52" y="232" font-size="13" letter-spacing="8" fill="#38e0c8" opacity=".9">M O U N T A I N</text>
+  <text x="54" y="232" font-size="13" letter-spacing="8" fill="#38e0c8" opacity=".92">M O U N T A I N</text>
 
-  <!-- terminal prompt + rotating roles -->
   <rect x="52" y="252" width="640" height="44" rx="8" fill="#0c111a" stroke="#1e2735"/>
-  <text x="70" y="279" font-size="15"><tspan fill="#f4c455">kylin</tspan><tspan fill="#38e0c8">@github:~$</tspan></text>
+  <text x="70" y="279" font-size="15" textLength="132" lengthAdjust="spacingAndGlyphs"><tspan fill="#f4c455">kylin</tspan><tspan fill="#38e0c8">@github:~$</tspan></text>
   <g class="roles" font-size="15" fill="#d6e0ee">
-    <text class="r1" x="196" y="279">PageIndex · OpenKB Maintainer</text>
-    <text class="r2" x="196" y="279">Microsoft GraphRAG Contributor</text>
-    <text class="r3" x="196" y="279">SGLang Contributor</text>
-    <text class="r4" x="196" y="279">RAG Architect · Multi-Agent Builder</text>
+    <text class="r1" x="218" y="279" textLength="252" lengthAdjust="spacingAndGlyphs">PageIndex · OpenKB Maintainer</text>
+    <text class="r2" x="218" y="279" textLength="262" lengthAdjust="spacingAndGlyphs">Microsoft GraphRAG Contributor</text>
+    <text class="r3" x="218" y="279" textLength="158" lengthAdjust="spacingAndGlyphs">SGLang Contributor</text>
+    <text class="r4" x="218" y="279" textLength="308" lengthAdjust="spacingAndGlyphs">RAG Architect · Multi-Agent Builder</text>
   </g>
-  <rect class="caret" x="530" y="264" width="9" height="20" fill="#38e0c8"/>
+  <rect class="caret" x="545" y="264" width="9" height="20" fill="#38e0c8"/>
 
-  <!-- right column: status chips -->
   <g font-size="13">
     <circle class="pulse" cx="742" cy="273" r="5" fill="#38e0c8"/>
     <text x="756" y="278" fill="#7488a0">status: <tspan fill="#38e0c8">shipping</tspan></text>
