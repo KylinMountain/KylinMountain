@@ -40,18 +40,6 @@ Focus: vectorless RAG · multi-agent systems · MCP tooling · LLM ops.
 | ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**microsoft / graphrag**](https://github.com/microsoft/graphrag) | **★ 34.2k** | Merged fixes: streaming query · open-source-LLM prompt-tune ([#505](https://github.com/microsoft/graphrag/pull/505) · [#520](https://github.com/microsoft/graphrag/pull/520) · [#1368](https://github.com/microsoft/graphrag/pull/1368)) |
 | ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**sgl-project / sglang**](https://github.com/sgl-project/sglang) | **★ 29.9k** | Docker image fix shipped upstream ([#1520](https://github.com/sgl-project/sglang/pull/1520)) |
 
-<!-- ░░ Own projects ░░ -->
-### `~/projects`
-
-<p>
-  <a href="https://github.com/KylinMountain/TradingAgents-AShare">
-    <img width="49%" src="https://opengraph.githubassets.com/hero/KylinMountain/TradingAgents-AShare" alt="TradingAgents-AShare" />
-  </a>
-  <a href="https://github.com/KylinMountain/graphrag-server">
-    <img width="49%" src="https://opengraph.githubassets.com/hero/KylinMountain/graphrag-server" alt="graphrag-server" />
-  </a>
-</p>
-
 <!-- ░░ Stack ░░ -->
 ### `~/stack`
 
