@@ -10,9 +10,12 @@
 <!-- ░░ Header banner ░░ -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38E0C8,100:F4C455&height=200&section=header&text=Kylin&fontColor=0D1117&fontSize=64&fontAlignY=38&desc=Make%20AI%20Great%20Again&descSize=18&descAlignY=60&animation=fadeIn" alt="Kylin" />
 
-<!-- ░░ Typing roles ░░ -->
+<!-- ░░ Typing roles (theme-adaptive) ░░ -->
 <a href="https://github.com/KylinMountain">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=38E0C8&center=true&vCenter=true&width=640&height=44&lines=PageIndex+%C2%B7+OpenKB+Maintainer;Microsoft+GraphRAG+Contributor;SGLang+Contributor;RAG+Architect+%C2%B7+vectorless;Multi-Agent+Builder" alt="roles" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=38E0C8&center=true&vCenter=true&width=640&height=44&lines=PageIndex+%C2%B7+OpenKB+Maintainer;Microsoft+GraphRAG+Contributor;SGLang+Contributor;RAG+Architect+%C2%B7+vectorless;Multi-Agent+Builder" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=0F766E&center=true&vCenter=true&width=640&height=44&lines=PageIndex+%C2%B7+OpenKB+Maintainer;Microsoft+GraphRAG+Contributor;SGLang+Contributor;RAG+Architect+%C2%B7+vectorless;Multi-Agent+Builder" alt="roles" />
+  </picture>
 </a>
 
 <p>
@@ -47,10 +50,16 @@ Focus: vectorless RAG · multi-agent systems · MCP tooling · LLM ops.
 
 <p>
   <a href="https://github.com/KylinMountain/TradingAgents-AShare">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=TradingAgents-AShare&bg_color=0D1117&title_color=38E0C8&icon_color=F4C455&text_color=C9D1D9&border_color=1E2735" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=TradingAgents-AShare&bg_color=0D1117&title_color=38E0C8&icon_color=F4C455&text_color=C9D1D9&border_color=1E2735" />
+      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=TradingAgents-AShare&bg_color=ffffff&title_color=0F766E&icon_color=B45309&text_color=24292f&border_color=d0d7de" />
+    </picture>
   </a>
   <a href="https://github.com/KylinMountain/graphrag-server">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=graphrag-server&bg_color=0D1117&title_color=38E0C8&icon_color=F4C455&text_color=C9D1D9&border_color=1E2735" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=graphrag-server&bg_color=0D1117&title_color=38E0C8&icon_color=F4C455&text_color=C9D1D9&border_color=1E2735" />
+      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=KylinMountain&repo=graphrag-server&bg_color=ffffff&title_color=0F766E&icon_color=B45309&text_color=24292f&border_color=d0d7de" />
+    </picture>
   </a>
 </p>
 
@@ -74,18 +83,30 @@ Focus: vectorless RAG · multi-agent systems · MCP tooling · LLM ops.
 ### `~/telemetry`
 
 <div align="center">
-  <img width="57%" src="https://github-readme-stats.vercel.app/api?username=KylinMountain&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=38E0C8&icon_color=F4C455&text_color=C9D1D9&ring_color=38E0C8" alt="stats" />
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KylinMountain&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=38E0C8&text_color=C9D1D9" alt="top langs" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=KylinMountain&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=38E0C8&icon_color=F4C455&text_color=C9D1D9&ring_color=38E0C8" />
+    <img width="57%" src="https://github-readme-stats.vercel.app/api?username=KylinMountain&show_icons=true&hide_border=true&count_private=true&bg_color=ffffff&title_color=0F766E&icon_color=B45309&text_color=24292f&ring_color=0F766E" alt="stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=KylinMountain&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=38E0C8&text_color=C9D1D9" />
+    <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KylinMountain&layout=compact&langs_count=8&hide_border=true&bg_color=ffffff&title_color=0F766E&text_color=24292f" alt="top langs" />
+  </picture>
 </div>
 
 <div align="center">
-  <img width="98%" src="https://streak-stats.demolab.com?user=KylinMountain&hide_border=true&background=0D1117&border=1E2735&stroke=1E2735&ring=38E0C8&fire=F4C455&currStreakNum=F4C455&currStreakLabel=38E0C8&sideNums=C9D1D9&sideLabels=7488A0&dates=7488A0" alt="streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=KylinMountain&hide_border=true&background=0D1117&border=1E2735&stroke=1E2735&ring=38E0C8&fire=F4C455&currStreakNum=F4C455&currStreakLabel=38E0C8&sideNums=C9D1D9&sideLabels=7488A0&dates=7488A0" />
+    <img width="98%" src="https://streak-stats.demolab.com?user=KylinMountain&hide_border=true&background=ffffff&border=d0d7de&stroke=d0d7de&ring=0F766E&fire=B45309&currStreakNum=B45309&currStreakLabel=0F766E&sideNums=24292f&sideLabels=57606a&dates=57606a" alt="streak" />
+  </picture>
 </div>
 
 <!-- ░░ Activity ░░ -->
 ### `~/activity`
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KylinMountain&bg_color=0D1117&color=38E0C8&line=F4C455&point=FFFFFF&area=true&area_color=38E0C8&hide_border=true" alt="activity graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=KylinMountain&bg_color=0D1117&color=38E0C8&line=F4C455&point=FFFFFF&area=true&area_color=38E0C8&hide_border=true" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KylinMountain&bg_color=ffffff&color=0F766E&line=B45309&point=24292f&area=true&area_color=0F766E&hide_border=true" alt="activity graph" />
+</picture>
 
 <!-- ░░ Optional: contribution snake (needs a GitHub Action — ask me to wire it) ░░ -->
 <!--
