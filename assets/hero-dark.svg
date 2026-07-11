@@ -114,7 +114,7 @@
     <text x="756" y="238" fill="#7488a0">status: <tspan fill="#38e0c8">shipping</tspan></text>
     <text x="742" y="80" fill="#7488a0" font-size="14">maintainer of</text>
     <text x="742" y="106" fill="#f4c455" font-size="18" font-weight="700">PageIndex <tspan fill="#4a5a6f" font-weight="400">★33.9k</tspan></text>
-    <text x="742" y="132" font-size="18" fill="#f4c455" font-weight="700">OpenKB <tspan fill="#4a5a6f" font-weight="400">★2.9k</tspan></text>
+    <text x="742" y="132" font-size="18" fill="#f4c455" font-weight="700">OpenKB <tspan fill="#4a5a6f" font-weight="400">★3k</tspan></text>
     <text x="742" y="162" fill="#7488a0" font-size="14">upstream prs</text>
     <text x="742" y="188" font-size="16" fill="#38e0c8" font-weight="700">GraphRAG · SGLang</text>
   </g>
