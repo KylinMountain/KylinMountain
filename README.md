@@ -9,8 +9,8 @@
 
 <!-- ░░ Custom terminal hero (repo-hosted SVG, theme-adaptive, animated) ░░ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=20260717" />
-  <img width="100%" src="assets/hero-light.svg?v=20260717" alt="Kylin — PageIndex · OpenKB Maintainer, GraphRAG & SGLang Contributor" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=20260718" />
+  <img width="100%" src="assets/hero-light.svg?v=20260718" alt="Kylin — PageIndex · OpenKB Maintainer, GraphRAG & SGLang Contributor" />
 </picture>
 
 <p>
@@ -52,7 +52,7 @@ Focus: vectorless RAG · multi-agent systems · MCP tooling · LLM ops.
 | Role | Project | | What |
 |---|---|---|---|
 | ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / PageIndex**](https://github.com/VectifyAI/PageIndex) | <!--star:VectifyAI/PageIndex-->**★ 34.1k**<!--/star--> | Vectorless, reasoning-based retrieval for long documents — no vector DB, no chunking |
-| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / OpenKB**](https://github.com/VectifyAI/OpenKB) | <!--star:VectifyAI/OpenKB-->**★ 3k**<!--/star--> | Compiles raw documents into an interlinked wiki knowledge base with LLMs |
+| ![](https://img.shields.io/badge/MAINTAINER-F4C455?style=flat-square&labelColor=0D1117) | [**VectifyAI / OpenKB**](https://github.com/VectifyAI/OpenKB) | <!--star:VectifyAI/OpenKB-->**★ 3.1k**<!--/star--> | Compiles raw documents into an interlinked wiki knowledge base with LLMs |
 | ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**microsoft / graphrag**](https://github.com/microsoft/graphrag) | <!--star:microsoft/graphrag-->**★ 34.5k**<!--/star--> | Merged fixes: streaming query · open-source-LLM prompt-tune ([#505](https://github.com/microsoft/graphrag/pull/505) · [#520](https://github.com/microsoft/graphrag/pull/520) · [#1368](https://github.com/microsoft/graphrag/pull/1368)) |
 | ![](https://img.shields.io/badge/CONTRIBUTOR-38E0C8?style=flat-square&labelColor=0D1117) | [**sgl-project / sglang**](https://github.com/sgl-project/sglang) | <!--star:sgl-project/sglang-->**★ 30.4k**<!--/star--> | Docker image fix shipped upstream ([#1520](https://github.com/sgl-project/sglang/pull/1520)) |
 
